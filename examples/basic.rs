@@ -47,7 +47,7 @@ impl App for TestApp {
             ctx.print("Hello, world!", Colour::Yellow.into(), Colour::Black.into());
             ctx.print(
                 "Goodbye cruel world!",
-                Colour::Red.into(),
+                Colour::LightRed.into(),
                 Colour::Black.into(),
             );
         });
